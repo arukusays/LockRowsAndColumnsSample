@@ -1,0 +1,84 @@
+@CHARSET "UTF-8";
+
+#frame {
+	position: relative;
+}
+
+#header01 {
+	width: 50px;
+	height: 30px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 4;
+}
+
+#header01_inner {
+	width: 50px;
+	height: 30px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: #999999;
+}
+
+#header02 {
+	width: 150px;
+	height: 30px;
+	overflow: hidden;
+	position: absolute;
+	top: 0px;
+	left: 50px;
+	z-index: 3;
+}
+
+#header02_inner {
+	width: 300px;
+	height: 30px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: #ff33ff;
+}
+
+#body01 {
+	width: 50px;
+	height: 200px;
+	overflow: hidden;
+	position: absolute;
+	top: 30px;
+	left: 0px;
+	z-index: 3;
+	position: absolute;
+}
+
+#body01_inner {
+	width: 50px;
+	height: 400px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: #ffeedd;
+}
+
+#body02 {
+	width: 167px; /* scrollbar分（17px）を上乗せしている */
+	height: 217px; /* scrollbar分（17px）を上乗せしている */
+	overflow: scroll;
+	position: absolute;
+	top: 30px;
+	left: 50px;
+	z-index: 2;
+}
+
+#body02_inner {
+	width: 300px;
+	height: 400px;
+	background-color: #aabbcc;
+}
+
+table,tr,td {
+	border: 1px #000000 solid;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
